@@ -39,3 +39,13 @@ header a.d-flex {
 .lg-logo {
   height: 2.5rem;
 }
+
+/* Hide map and facility/peeringdb */
+main > .row:first-of-type > .card > .card-body > .row:first-of-type {
+  display: none;
+}
+
+/* Hide copy buttons */
+main > .row > .card > .card-body > .row .btn.btn-outline-secondary[onclick] {
+  display: none;
+}
