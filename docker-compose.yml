@@ -7,8 +7,10 @@ services:
       context: docker/nginx
       dockerfile: Dockerfile
     ports:
-      - "80:80"
+      - "8282:80"
     restart: unless-stopped
+    volumes:
+      - "./style.css:/var/www/html/style.css"
 
   php-fpm:
     image: hybula/lookingglass-php:1
@@ -16,3 +18,5 @@ services:
       context: .
       dockerfile: docker/php-fpm/Dockerfile
     restart: unless-stopped
+    volumes:
+      - "./config.php:/var/www/html/config.php"

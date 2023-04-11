@@ -1,0 +1,41 @@
+:root {
+  --hh-brand-darker: #de4f4f;
+  --hh-brand: #ff7365;
+  --hh-brand-lighter: #fba963;
+  --hh-charcoal-300: #b8b9bd;
+  --hh-charcoal-600: #2E2F3E;
+  --hh-charcoal-700: #222331;
+  --hh-charcoal-800: #181925;
+  --hh-charcoal-900: #13141D;
+
+  --bs-link-color: var(--hh-brand);
+  --bs-link-hover-color: var(--hh-charcoal-700);
+  --bs-border-color: transparent;
+}
+
+body {
+  background: #fff;
+  background-image: linear-gradient(to right, var(--hh-brand-darker) 0%, var(--hh-brand) 50%, var(--hh-brand-lighter) 100%),
+                    linear-gradient(to bottom, transparent 0%, transparent 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 220px;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--hh-brand);
+  --bs-btn-border-color: var(--hh-brand);
+  --bs-btn-hover-bg: var(--hh-brand-lighter);
+  --bs-btn-hover-border-color: var(--hh-brand-lighter);
+  --bs-btn-active-bg: var(--hh-brand-lighter);
+  --bs-btn-active-border-color: var(--hh-brand-lighter);
+  --bs-btn-disabled-bg: var(--hh-brand);
+  --bs-btn-disabled-border-color: var(--hh-brand);
+}
+
+header a.d-flex {
+  display: inline-flex !important;
+}
+
+.lg-logo {
+  height: 2.5rem;
+}
