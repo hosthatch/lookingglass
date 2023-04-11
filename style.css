@@ -41,7 +41,7 @@ header a.d-flex {
 }
 
 /* Hide map and facility/peeringdb */
-main > .row:first-of-type > .card > .card-body > .row:first-of-type {
+main > .row:first-of-type > .card > .card-body > .row:first-of-type .btn {
   display: none;
 }
 
