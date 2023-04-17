@@ -4,6 +4,10 @@ use Hybula\LookingGlass;
 // Define the HTML title;
 const LG_TITLE = 'Looking Glass';
 
+const HH_CARRIER_BLOCK = true;
+const HH_CARRIER_TEXT = '<p>Example Carrier.</p>
+<p>Some sort of description goes here.</p>';
+
 // Define a logo, this can be HTML too, see the other example for an image;
 const LG_LOGO = '<h2>Company Looking Glass</h2>';
 // Define the URL where the logo points to;

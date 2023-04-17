@@ -49,3 +49,13 @@ main > .row:first-of-type > .card > .card-body > .row:first-of-type .btn {
 main > .row > .card > .card-body > .row .btn.btn-outline-secondary[onclick] {
   display: none;
 }
+
+/* Make footer text smaller */
+footer {
+  font-size: 10px;
+}
+
+/* Hide the GitHub stars logo */
+footer > a.float-end {
+  display: none;
+}

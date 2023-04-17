@@ -20,3 +20,5 @@ services:
     restart: unless-stopped
     volumes:
       - "./config.php:/var/www/html/config.php"
+      - "./custom.html.php:/var/www/html/custom.html.php"
+      - "./custom.post.php:/var/www/html/custom.post.php"
